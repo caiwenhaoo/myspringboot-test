@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myspringboot-api" />
         <module name="myspringboot-utils" />
+        <module name="myspringboot-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="myspringboot-api" options="-parameters" />
+      <module name="myspringboot-service" options="-parameters" />
       <module name="myspringboot-utils" options="-parameters" />
     </option>
   </component>
